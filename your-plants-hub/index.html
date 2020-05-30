@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xml:lang="it" lang="it">
+ <head>
+   <title>Your Plants Hub | Arduino IoT Tutorial</title>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+   
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.scrollorama.js"></script>
+    <script src="js/interface-app.js"></script>
+ </head>
+ <body>
+
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="top"></div>
+  <div id="bottom"></div>
+  
+  <div class="container">
+    <h1>Your Plants Hub</h1>
+
+  </div>
+    
+  <!--
+  <div id="sfondo">
+  </div>
+  -->
+  
+  <div class="scrollblock" id="examples-parallax">
+    <img id="parallax2" src="img/parlor.png">
+  </div>
+  
+  
+  <div class="scrollblock">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Umidit&agrave;</h3>
+          <div class="levelometer"></div>
+          <div class="big-square">
+            <div class="inner-square">
+              <div class="flag-green stilize">
+                9.9
+              </div>
+              <div class="red-line-block">
+                <div class="flag-red stilize">0.9</div>
+                <div class="red-line"></div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 info-side">
+          <h3>Accensione lampadina</h3>
+          <div class="accensione block">
+            <div class="circle"></div>
+            <span>OFF</span>
+          </div>
+          
+          <div class="info block">
+            <ul>
+              <li>Il valore di <span class="c">umidit&agrave;</span> &egrave; <span class="flag-green">9.0</span></li>
+              <li>La soglia a cui hai impostato l'<span class="c">allarme</span> &egrave; <span class="flag-red">9.9</span></li>
+              <li>La lampadina &egrave; <span class="c accesa-status">spenta</span></li>
+            </ul>
+          </div>
+
+          <div class="summary block">
+            <p>
+              <span class="c cc">Your Plants Hub</span> &egrave; un&#8217;applicazione che
+            ti permette di monitorare l&#8217;umidit&agrave; delle tue
+            piante e di impostare una soglia per ricevere
+            una notifica.  
+            </p>
+
+            <p>
+              L&#8217;applicazione &egrave; sviluppata con una scheda
+            <a href="http://arduino.cc/en/Main/arduinoBoardUno" target="_blank">Arduino UNO</a> e un sensore di umidit&agrave; per quanto
+            riguarda la parte hardware, e utilizza <a href="http://nodejs.org/" target="_blank">node.js</a>
+            e <a href="http://socket.io/" target="_blank">socket.io</a> per monitorare la scheda attraverso
+            un&#8217;interfaccia web.
+            </p>
+            
+            
+          </div>
+          <div class="piantina-container">
+            <!--
+            <div class="plantita">
+              <img src="img/plant.gif" alt="">
+            </div>
+          </div>
+          -->
+
+          <img src="img/piantina3.gif" alt="">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+ </body>
+</html>
