@@ -1,2 +1,2 @@
 # gtempesta.github.io
-Personal wensite
+Personal website with basic information about myself.
